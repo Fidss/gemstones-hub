@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'url' => env('SUPABASE_URL'),
-    'key' => env('SUPABASE_KEY'),
+    'url' => env('SUPABASE_URL', 'https://kmyipabrhukygbashtwh.supabase.co'),
+    'key' => env('SUPABASE_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtteWlwYWJyaHVreWdiYXNodHdoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0ODMyMTIsImV4cCI6MjA5ODA1OTIxMn0.EQC95fFG2xeM0Wy5UiG55bo1ftx8sA7gS1etoTmOym0'),
     'headers' => [
         'apikey' => env('SUPABASE_KEY'),
         'Authorization' => 'Bearer ' . env('SUPABASE_KEY'),
